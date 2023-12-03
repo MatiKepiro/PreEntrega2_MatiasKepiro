@@ -1,0 +1,534 @@
+/* --- Inicio Estilos Globales --- */
+* {
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+}
+
+html {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    position: absolute;
+}
+
+.titulo_general {
+    font-size: 3.5rem;
+    text-decoration: underline 5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 3 / 3 / 4; }
+    .div3 { grid-area: 3 / 1 / 4 / 2; }
+    .div4 { grid-area: 3 / 3 / 4 / 4; }
+    .div5 { grid-area: 3 / 5 / 4 / 6; }
+    .div6 { grid-area: 4 / 1 / 5 / 2; }
+    .div7 { grid-area: 4 / 3 / 5 / 4; }
+    .div8 { grid-area: 4 / 5 / 5 / 6; }
+    .div9 { grid-area: 5 / 1 / 6 / 2; }
+    .div10 { grid-area: 5 / 3 / 6 / 4; }
+    .div11 { grid-area: 5 / 5 / 6 / 6; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* --- Fin Estilos Globales --- */
+
+
+/* --- Inicio Header --- */
+.logo {
+    width: 10%;
+    z-index: 1;
+}
+
+header {
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    border: 2px solid rgb(0, 0, 0);
+    height: 30vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.nombre {
+    color: rgb(255, 255, 255);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 4rem;
+    position: absolute;
+    top: 2.7rem;
+    left: 13rem;
+    text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000000, -2px -2px 0 #000; 
+    z-index: 1;
+}
+
+.links {
+    font-size: 2rem;
+    position: absolute;
+    top: 7.6rem;
+    color: rgb(255, 255, 255);
+    z-index: 1  ;
+}
+
+.inicio {
+    right: 30rem;
+}
+
+.productos {
+    right: 18rem;
+}
+
+.contacto {
+    right: 7rem;
+}
+
+
+/* --- Fin Header --- */
+
+
+
+/* --- Inicio Main --- */
+
+    /* "Inicio" */
+        /* Portadas */
+.portadas{
+    height: 50vh;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+
+    position: relative;
+    top: 5rem;
+}
+
+.buzos {
+    left: 5rem;
+}
+
+.remeras {
+    left: 20rem;
+}
+
+.pantalones {
+    left: 35rem;
+}
+
+        /* Textos */
+.titulo_portada {
+    display: inline-block;
+    font-size: 1.8rem;
+    position: relative;
+    top: 3.5rem;
+}
+
+.buzo {
+    left: 15rem;
+}
+
+.remera {
+    left: 46rem;
+}
+
+.pantalon {
+    left: 82rem;
+}
+
+    /* "Productos" */
+        /* Textos */
+
+.subtitulos_productos {
+    font-size: 2.5rem;
+    font-style: italic;
+    position: relative;
+    left: 5rem;
+}
+
+.texto_buzos {
+    top: 7rem;
+
+}
+
+.texto_remeras {
+    top: 45rem;
+}
+
+.texto_pantalones {
+    top: 83rem;
+}
+
+        /* Imagenes */
+.imagenes_productos {
+    height: 50vh;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+            /* Buzos */
+.altura_buzo {
+    top: 33rem;
+}
+.buzo_1 {
+    left: 13rem;
+}
+
+.buzo_2 {
+    left: 48rem;
+}
+
+.buzo_3 {
+    left: 80rem;
+}
+
+            /* Remeras */
+.altura_remera {
+    top: 77rem;
+}
+
+.remera_1 {
+    left: 15rem;
+}
+
+.remera_2 {
+    left: 47rem;
+}
+
+.remera_3 {
+    left: 80rem;
+}
+
+            /* Pantalones */
+.altura_pantalon {
+    top: 121rem;
+}
+
+.pantalon_1 {
+    left: 10rem;
+}
+
+.pantalon_2 {
+    left: 47rem;
+}
+
+.pantalon_3 {
+    left: 80rem;
+}
+
+    /* "Contacto" */
+.subtitulos_contacto {
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    top: 13rem;
+    font-style: italic;
+}
+
+        /* Iconos */
+.icono_grande {
+    height: 80px;
+    width: 80px;
+    position: relative;
+}
+
+.instagram_icono_contacto {
+    top: 15rem;
+    left: 45rem;
+}
+
+.whatsapp_icono_contacto {
+    top: 25rem;
+    left: 39.6rem;
+}
+
+.mail_icono_contacto {
+    top: 35rem;
+    left: 34.2rem;
+}
+
+    /* Texto */
+.links_contacto {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 52rem;
+}
+
+.instagram_contacto {
+    top: 42.6rem;
+}
+
+.whatsapp_contacto {
+    top: 52.6rem;
+}
+
+.mail_contacto {
+    top: 62.6rem;
+}
+
+    /* "Buzos" */
+        /* Imagenes */
+.fila_1 {
+    top: 35rem;
+}
+
+.fila_2 {
+    top: 80rem;
+}
+
+.buzo_4 {
+    left: 15rem;
+}
+
+.buzo_5 {
+    left: 50rem;
+}
+
+.buzo_6 {
+    left: 85rem;
+}
+
+        /* Precios */
+.precio_fila_1 {
+    position: absolute;
+    top: 65.5rem;
+}
+
+.precio_fila_2 {
+    position: absolute;
+    top: 110.5rem;
+}
+
+.precio_buzo_izq {
+    left: 19.5rem;
+}
+
+.precio_buzo_med {
+    left: 53rem;
+}
+
+.precio_buzo_der {
+    left: 90rem;
+}
+
+        /* Botones */
+.boton_fila_1 {
+    top: 70rem;
+}
+
+.boton_fila_2 {
+    top: 115rem;
+}
+
+.boton_izq {
+    left: 21.5rem;
+}
+
+.boton_med {
+    left: 55.5rem;
+}
+
+.boton_der {
+    left: 92.5rem;
+}
+
+    /* "Remeras" */
+        /* Imagenes */
+.remera_4 {
+    left: 14rem;
+}
+
+.remera_5{
+    left: 50rem;
+}
+
+.remera_6 {
+    left: 83.7rem;
+}
+
+    /* "Pantalones" */
+        /* Imagenes */
+.pantalon_4 {
+    left: 10rem;
+}
+
+.pantalon_5 {
+    left: 44rem;
+}
+
+.pantalon_6 {
+    left: 80rem;
+}
+
+/* --- Fin Main --- */
+
+/* --- Inicio Footer --- */
+    /* Iconos */
+.icono {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 5.5rem;
+}
+
+        /* "Inicio" */
+
+.instagram_icono_inicio {
+    top: 70.7rem;
+}
+
+.whatsapp_icono_inicio {
+    top: 74.7rem;
+}
+
+.mail_icono_inicio {
+    top: 78.7rem;
+}
+
+        /* "Productos" */
+.instagram_icono_productos {
+    top: 158.9rem;
+}
+
+.whatsapp_icono_productos {
+    top: 162.9rem;
+}
+
+.mail_icono_productos {
+    top: 166.9rem;
+}
+
+        /* "Buzos" */
+.instagram_icono_buzos {
+    top: 125rem;
+}
+
+.whatsapp_icono_buzos {
+    top: 129rem;
+}
+
+.mail_icono_buzos {
+    top: 133rem;
+}
+
+    /* Links */
+        /* "Inicio" */
+.footer_links {
+    font-size: 1.3rem;
+    position: absolute;
+    left: 7.2rem;
+    padding-bottom: 1rem;
+}
+
+.instagram_inicio {
+    top: 70.3rem;
+}
+
+.whatsapp_inicio {
+    top: 74.3rem;
+}
+
+.mail_inicio {
+    top: 78.3rem;
+}
+
+        /* "Productos" */
+.instagram_productos {
+    top: 158.4rem;
+}
+
+.whatsapp_productos {
+    top: 162.5rem;
+}
+
+.mail_productos {
+    top: 166.5rem;
+}
+
+        /* "Buzos" */
+.instagram_buzos {
+    top: 124.6rem;
+}
+
+.whatsapp_buzos {
+    top: 128.6rem;
+}
+
+.mail_buzos {
+    top: 132.6rem;
+
+}
+
+
+    /* Info */
+.direccion {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    padding-bottom: 5rem;
+    top: 73rem;
+    right: 4rem;
+}
+
+.firma {
+    top: 80rem;
+    left: 44%;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* --- Fin Footer --- */
