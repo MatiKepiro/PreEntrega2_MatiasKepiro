@@ -27,13 +27,17 @@
     <header>
         <nav>
             <ul>
-                <li> <a href="index.html"> <img class="logo" src="img/logo.png" alt="Logo Equis"> </a></li>
-                <li> <a href="index.html"> <h1 class="nombre"> Equis </h1> </a></li>
-                
-                <!-- Links superior derecha -->
-                <li> <a class="links inicio" href="index.html"> Inicio </a> </li>
-                <li> <a class="links productos" href="pages/productos.html"> Productos </a> <li>
-                <li> <a class="links contacto" href="pages/contacto.html"> Contacto </a> <li>
+                <div class="background">  
+                    <li> <a href="index.html"> <img class="logo" src="img/logo.png" alt="Logo Equis"> </a> </li>
+                    <li> <a href="index.html"> <h1 class="nombre"> Equis </h1> </a> </li>
+
+                    <!-- Links superior derecha -->
+                    <div class="links">
+                        <li> <a href="index.html"> Inicio </a> </li>
+                        <li> <a href="pages/productos.html"> Productos </a> </li>
+                        <li> <a href="pages/contacto.html"> Contacto </a> </li> 
+                    </div>
+                </div>
             </ul>
         </nav>
     </header>
@@ -42,54 +46,53 @@
     <!-- Main -->
     <main>
 
-        <!--Seccion Portadas -->
-        <nav>
-            <ul>
-                <li> 
-                    <a href="/pages/buzos.html"><img class="portadas buzos" src="img/buzos_portada.jpg" alt="buzos portada"></a>
-                    <a href="/pages/remeras.html"><img class="portadas remeras" src="img/remeras_portada.jpg" alt="buzos portada"></a>
-                    <a href="/pages/pantalones.html"><img class="portadas pantalones" src="img/pantalones_portada.jpg" alt="buzos portada"></a>
-                </li>
-            </ul>
-        </nav>
 
-        <!--Seccion Texto -->
-        <section>
-            <h2 class="titulo_portada buzo" >Buzos</h2>
-            <h2 class="titulo_portada remera" >Remeras</h2>
-            <h2 class="titulo_portada pantalon" >Pantalones</h2>
-        </section>
+        <div class="portadas">
+            <section>
+                <a href="/pages/buzos.html"><img class="productos" src="img/buzos_portada.jpg" alt="Buzos portada"></a>
+                <h2 class="textos_portadas" >Buzos</h2>
+            </section>
+                
+                
+            <section>
+                <a href="/pages/remeras.html"><img class="productos" src="img/remeras_portada.jpg" alt="Remeras portada"></a>
+                <h2 class="textos_portadas">Remeras</h2>
+            </section>
+
+            <section>
+                <a href="/pages/pantalones.html"><img class="productos" src="img/pantalones_portada.jpg" alt="Pantalones portada"></a>
+                <h2 class="textos_portadas">Pantalones</h2>
+            </section>
+        </div>
 
     </main>
 
 
     <!-- Footer -->
     <footer>
-
-        <!-- Iconos -->
-        <section>
-            <img class="icono instagram_icono_inicio" src="img/instagram_icono.jpg" alt="icono instagram">
-            <img class="icono whatsapp_icono_inicio" src="img/whatsapp_icono.jpg" alt="icono whatsapp">
-            <img class="icono mail_icono_inicio" src="img/mail_icono.jpg" alt="icono mail">
+        
+        <section class="posicion_info altura">
+            <img class="icono" src="img/instagram_icono.jpg" alt="icono instagram">
+            <a class= "link_instagram" href="https://www.instagram.com/mati.kepiro/" target="_blank">@Mati.Kepiro</a>
+        </section>
+            
+        <section class="posicion_info">
+            <img class="icono" src="img/whatsapp_icono.jpg" alt="icono whatsapp">
+            <a class="link_whatsapp"  href="https://wa.me/1126675400/?text=Hola Mati! Me llamo --- y te quería decir que tu pagina es ---"  target="_blank">Whatsapp</a>
         </section>
 
-        <!-- Redes -->
-        <nav>
-            <ul>
-                <li>
-                    <a class="footer_links instagram_inicio" href="#">@Instagram</a>
-                    <a class="footer_links whatsapp_inicio" href="#">11-2222-3333</a>
-                    <a class="footer_links mail_inicio" href="#">ejemplo@gmail.com</a>
-                </li>
-            </ul>
-        </nav>
+        <section class="posicion_info">
+            <img class="icono" src="img/mail_icono.jpg" alt="icono mail">
+            <a class="link_mail" href="mailto:matias.kepiro@gmail.com">Matias.Kepiro@gmail.com</a>
+        </section>
+
 
         <p class="direccion">
             Direccion: Av General Paz 7198, Santa Fe, Argentina.
         </p>
 
         <p class="firma">
-            Matias Kepiro
+            ©Matias Kepiro
         </p>
 
     </footer>

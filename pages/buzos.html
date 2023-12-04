@@ -26,16 +26,19 @@
     <header>
         <nav>
             <ul>
-                <li> <a href="../index.html"> <img class="logo" src="../img/logo.png" alt="Logo Equis"> </a></li>
-                <li> <a href="../index.html"> <h1 class="nombre"> Equis </h1> </a></li>
-                
-                <!-- Links superior derecha -->
-                <li> <a class="links inicio" href="../index.html"> Inicio </a> </li>
-                <li> <a class="links productos" href="productos.html"> Productos </a> <li>
-                <li> <a class="links contacto" href="contacto.html"> Contacto </a> <li>
+                <div class="background">  
+                    <li> <a href="../index.html"> <img class="logo" src="../img/logo.png" alt="Logo Equis"> </a> </li>
+                    <li> <a href="../index.html"> <h1 class="nombre"> Equis </h1> </a> </li>
+
+                    <!-- Links superior derecha -->
+                    <div class="links">
+                        <li> <a href="../index.html"> Inicio </a> </li>
+                        <li> <a href="../pages/productos.html"> Productos </a> </li>
+                        <li> <a href="../pages/contacto.html"> Contacto </a> </li> 
+                    </div>
+                </div>
             </ul>
         </nav>
-        
         <h1 class="titulo_general"> Buzos </h1>
     </header>
 
@@ -43,56 +46,45 @@
     <main>
 
         <!-- Imagenes -->
-        <section>
-            <img class="imagenes_productos fila_1 buzo_1" src="../img/buzo_1.jpg" alt="portada buzo_1">
-            <img class="imagenes_productos fila_1 buzo_2" src="../img/buzo_2.jpg" alt="portada buzo_2">
-            <img class="imagenes_productos fila_1 buzo_3" src="../img/buzo_3.jpg" alt="portada buzo_3">
-            <img class="imagenes_productos fila_2 buzo_4" src="../img/buzo_4.jpg" alt="portada buzo_4">
-            <img class="imagenes_productos fila_2 buzo_5" src="../img/buzo_5.jpg" alt="portada buzo_5">
-            <img class="imagenes_productos fila_2 buzo_6" src="../img/buzos_portada.jpg" alt="portada buzo_6">
-        </section>
+        <div class="portadas">
+            <a href="#"><img class="productos" src="../img/buzo_1.jpg" alt="Foto buzo 1"></a>
+            <a href="#"><img class="productos" src="../img/buzo_2.jpg" alt="Foto buzo 2"></a>
+            <a href="#"><img class="productos" src="../img/buzo_3.jpg" alt="Foto buzo 3"></a>
+        </div>
 
-        <!-- Precios -->
-        <section>
-            <h2 class="precio_fila_1 precio_buzo_izq">Precio: $65.990</h2>
-            <h2 class="precio_fila_1 precio_buzo_med">Precio: $64.990</h2>
-            <h2 class="precio_fila_1 precio_buzo_der">Precio: $62.990</h2>
-            <h2 class="precio_fila_2 precio_buzo_izq">Precio: $59.990</h2>
-            <h2 class="precio_fila_2 precio_buzo_med">Precio: $59.990</h2>
-            <h2 class="precio_fila_2 precio_buzo_der">Precio: $64.990</h2>
-        </section>
+        <div class="portadas">
+            <a href="#"><img class="productos" src="../img/buzo_4.jpg" alt="Foto buzo 4"></a>
+            <a href="#"><img class="productos" src="../img/buzo_5.jpg" alt="Foto buzo 5"></a>
+            <a href="#"><img class="productos" src="../img/buzos_portada.jpg" alt="Foto buzo 6"></a>
+        </div>
 
-        <!-- Botones -->
-        <section>
-            <button class="boton_fila_1 boton_izq">Comprar</button>
-            <button class="boton_fila_1 boton_med">Comprar</button>
-            <button class="boton_fila_1 boton_der">Comprar</button>
-            <button class="boton_fila_2 boton_izq">Comprar</button>
-            <button class="boton_fila_2 boton_med">Comprar</button>
-            <button class="boton_fila_2 boton_der">Comprar</button>
-        </section>
     </main>
 
-            <!-- Footer -->
+    <!-- Footer -->
     <footer>
 
-        <!-- iconos -->
-        <section>
-            <img class="icono instagram_icono_buzos" src="../img/instagram_icono.jpg" alt="icono instagram">
-            <img class="icono whatsapp_icono_buzos" src="../img/whatsapp_icono.jpg" alt="icono whatsapp">
-            <img class="icono mail_icono_buzos" src="../img/mail_icono.jpg" alt="icono mail">
+        <section class="posicion_info altura">
+            <img class="icono" src="../img/instagram_icono.jpg" alt="icono instagram">
+            <a class= "link_instagram" href="https://www.instagram.com/mati.kepiro/" target="_blank">@Mati.Kepiro</a>
+        </section>
+            
+        <section class="posicion_info">
+            <img class="icono" src="../img/whatsapp_icono.jpg" alt="icono whatsapp">
+            <a class="link_whatsapp"  href="https://wa.me/1126675400/?text=Hola Mati! Me llamo --- y te quería decir que tu pagina es ---"  target="_blank">Whatsapp</a>
         </section>
 
-        <!-- Redes -->
-        <nav>
-            <ul>
-                <li>
-                    <a class="footer_links instagram_buzos" href="#">@Instagram</a>
-                    <a class="footer_links whatsapp_buzos" href="#">11-2222-3333</a>
-                    <a class="footer_links mail_buzos" href="#">ejemplo@gmail.com</a>
-                </li>
-            </ul>
-        </nav>
+        <section class="posicion_info">
+            <img class="icono" src="../img/mail_icono.jpg" alt="icono mail">
+            <a class="link_mail" href="mailto:matias.kepiro@gmail.com">Matias.Kepiro@gmail.com</a>
+        </section>
+
+        <p class="direccion">
+            Direccion: Av General Paz 7198, Santa Fe, Argentina.
+        </p>
+
+        <p class="firma">
+            ©Matias Kepiro
+        </p>
 
     </footer>
 </body>

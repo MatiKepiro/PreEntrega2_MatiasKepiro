@@ -28,74 +28,85 @@
     <header>
         <nav>
             <ul>
-                <li> <a href="../index.html"> <img class="logo" src="../img/logo.png" alt="Logo Equis"> </a></li>
-                <li> <a href="../index.html"> <h1 class="nombre"> Equis </h1> </a></li>
-                
-                <!-- Links superior derecha -->
-                <li> <a class="links inicio" href="../index.html"> Inicio </a> </li>
-                <li> <a class="links productos" href="productos.html"> Productos </a> <li>
-                <li> <a class="links contacto" href="contacto.html"> Contacto </a> <li>
+                <div class="background">  
+                    <li> <a href="../index.html"> <img class="logo" src="../img/logo.png" alt="Logo Equis"> </a> </li>
+                    <li> <a href="../index.html"> <h1 class="nombre"> Equis </h1> </a> </li>
+
+                    <!-- Links superior derecha -->
+                    <div class="links">
+                        <li> <a href="../index.html"> Inicio </a> </li>
+                        <li> <a href="../pages/productos.html"> Productos </a> </li>
+                        <li> <a href="../pages/contacto.html"> Contacto </a> </li> 
+                    </div>
+                </div>
             </ul>
         </nav>
-        
         <h1 class="titulo_general"> Productos </h1>
     </header>
 
 
     <!-- Main -->
     <main>
-
-        <!-- Texto -->
         <section>
-            <h2 class="subtitulos_productos texto_buzos"> Buzos </h2>
-            <h2 class="subtitulos_productos texto_remeras"> Remeras </h2>
-            <h2 class="subtitulos_productos texto_pantalones"> Pantalones </h2>
+            <h2 class="subtitulos_productos textos_productos"> Buzos </h2>
+            <!-- Imagenes Buzos -->
+            <div class="portadas">
+                <a href="buzos.html"><img class="productos" src="../img/buzo_1.jpg" alt="Foto buzo 1"></a>
+                <a href="buzos.html"><img class="productos" src="../img/buzo_2.jpg" alt="Foto buzo 2"></a>
+                <a href="buzos.html"><img class="productos" src="../img/buzo_3.jpg" alt="Foto buzo 3"></a>
+            </div>
         </section>
+            
+        <section>
+            <h2 class="subtitulos_productos textos_productos"> Remeras </h2>
+            <!-- Imagenes Remeras -->
+            <div class="portadas">
+                <a href="remeras.html"><img class="productos" src="../img/remera_1.jpg" alt="Foto remera 1"></a>
+                <a href="remeras.html"><img class="productos" src="../img/remera_2.jpg" alt="Foto remera 2"></a>
+                <a href="remeras.html"><img class="productos" src="../img/remera_3.jpg" alt="Foto remera 3"></a>
+            </div>
+        </section>
+        
 
-        <!-- Imagenes Buzos -->
-        <a href="buzos.html">
-            <img class="imagenes_productos altura_buzo buzo_1" src="../img/buzo_1.jpg" alt="imagen buzo_1">
-            <img class="imagenes_productos altura_buzo buzo_2" src="../img/buzo_2.jpg" alt="imagen buzo_2">
-            <img class="imagenes_productos altura_buzo buzo_3" src="../img/buzo_3.jpg" alt="imagen buzo_3">
-        </a>
-
-        <!-- Imagenes Remeras -->
-        <a href="remeras.html">
-            <img class="imagenes_productos altura_remera remera_1" src="../img/remera_1.jpg" alt="imagen remera_1">
-            <img class="imagenes_productos altura_remera remera_2" src="../img/remera_2.jpg" alt="imagen remera_2">
-            <img class="imagenes_productos altura_remera remera_3" src="../img/remera_3.jpg" alt="imagen remera_3">
-        </a>
-
-        <!-- Imagenes Pantalones -->
-        <a href="pantalones.html">
-            <img class="imagenes_productos altura_pantalon pantalon_1" src="../img/pantalon_1.jpg" alt="imagen pantalon1">
-            <img class="imagenes_productos altura_pantalon pantalon_2" src="../img/pantalon_2.jpg" alt="imagen pantalon_2">
-            <img class="imagenes_productos altura_pantalon pantalon_3" src="../img/pantalon_3.jpg" alt="imagen pantalon_3">
-        </a>
-
+        <section>
+            <h2 class="subtitulos_productos textos_productos"> Pantalones </h2>
+            <!-- Imagenes Pantalones -->
+            <div class="portadas">
+                <a href="pantalones.html"><img class="productos" src="../img/pantalon_1.jpg" alt="Foto pantalon 1"></a>
+                <a href="pantalones.html"><img class="productos" src="../img/pantalon_2.jpg" alt="Foto pantalon 2"></a>
+                <a href="pantalones.html"><img class="productos" src="../img/pantalon_3.jpg" alt="Foto pantalon 3"></a>
+            </div>
+        </section>
+        
 
     </main>
 
     <!-- Footer -->
     <footer>
 
-        <!-- iconos -->
-        <section>
-            <img class="icono instagram_icono_productos" src="../img/instagram_icono.jpg" alt="icono instagram">
-            <img class="icono whatsapp_icono_productos" src="../img/whatsapp_icono.jpg" alt="icono whatsapp">
-            <img class="icono mail_icono_productos" src="../img/mail_icono.jpg" alt="icono mail">
+        <section class="posicion_info altura">
+            <img class="icono" src="../img/instagram_icono.jpg" alt="icono instagram">
+            <a class= "link_instagram" href="https://www.instagram.com/mati.kepiro/" target="_blank">@Mati.Kepiro</a>
+        </section>
+            
+        <section class="posicion_info">
+            <img class="icono" src="../img/whatsapp_icono.jpg" alt="icono whatsapp">
+            <a class="link_whatsapp"  href="https://wa.me/1126675400/?text=Hola Mati! Me llamo --- y te quería decir que tu pagina es ---"  target="_blank">Whatsapp</a>
         </section>
 
-        <!-- Redes -->
-        <nav>
-            <ul>
-                <li>
-                    <a class="footer_links instagram_productos" href="#">@Instagram</a>
-                    <a class="footer_links whatsapp_productos" href="#">11-2222-3333</a>
-                    <a class="footer_links mail_productos" href="#">ejemplo@gmail.com</a>
-                </li>
-            </ul>
-        </nav>
+        <section class="posicion_info">
+            <img class="icono" src="../img/mail_icono.jpg" alt="icono mail">
+            <a class="link_mail" href="mailto:matias.kepiro@gmail.com">Matias.Kepiro@gmail.com</a>
+        </section>
+                    
+
+        <p class="direccion">
+            Direccion: Av General Paz 7198, Santa Fe, Argentina.
+        </p>
+
+        <p class="firma">
+            ©Matias Kepiro
+        </p>
 
     </footer>
 

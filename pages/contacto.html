@@ -28,16 +28,19 @@
     <header>
         <nav>
             <ul>
-                <li> <a href="../index.html"> <img class="logo" src="../img/logo.png" alt="Logo Equis"> </a></li>
-                <li> <a href="../index.html"> <h1 class="nombre"> Equis </h1> </a></li>
-                
-                <!-- Links superior derecha -->
-                <li> <a class="links inicio" href="../index.html"> Inicio </a> </li>
-                <li> <a class="links productos" href="productos.html"> Productos </a> <li>
-                <li> <a class="links contacto" href="contacto.html"> Contacto </a> <li>
+                <div class="background">  
+                    <li> <a href="../index.html"> <img class="logo" src="../img/logo.png" alt="Logo Equis"> </a> </li>
+                    <li> <a href="../index.html"> <h1 class="nombre"> Equis </h1> </a> </li>
+
+                    <!-- Links superior derecha -->
+                    <div class="links">
+                        <li> <a href="../index.html"> Inicio </a> </li>
+                        <li> <a href="../pages/productos.html"> Productos </a> </li>
+                        <li> <a href="../pages/contacto.html"> Contacto </a> </li> 
+                    </div>
+                </div>
             </ul>
         </nav>
-        
         <h1 class="titulo_general"> Contacto </h1>
     </header>
 
@@ -47,28 +50,22 @@
         <!-- Texto -->
         <h2 class="subtitulos_contacto">¡No dudes en contactarnos!</h2>
 
-        <!-- Iconos -->
-        <section>
-            <img class="icono_grande instagram_icono_contacto" src="../img/instagram_icono.jpg" alt="icono instagram">
-            <img class="icono_grande whatsapp_icono_contacto" src="../img/whatsapp_icono.jpg" alt="icono whatsapp">
-            <img class="icono_grande mail_icono_contacto" src="../img/mail_icono.jpg" alt="icono mail">
-        </section>
+        <div class="columnas">
+            <section class="contactos">
+                <img class="icono_grande" src="../img/instagram_icono.jpg" alt="icono instagram">
+                <a class="links_contacto" href="https://www.instagram.com/mati.kepiro/" target="_blank">@Mati.Kepiro</a>
+            </section>
 
-        <!-- Redes -->
-        <nav>
-            <ul>
-                <li>
-                    <a class="links_contacto instagram_contacto" href="#">@instagram</a>
-                    <a class="links_contacto whatsapp_contacto" href="#">11-2222-3333</a>
-                    <a class="links_contacto mail_contacto" href="#">ejemplo@gmail.com</a>
-                </li>
-            </ul>
-        </nav>
+            <section class="contactos">
+                <img class="icono_grande" src="../img/whatsapp_icono.jpg" alt="icono whatsapp">
+                <a class="links_contacto" href="https://wa.me/1126675400/?text=Hola Mati! Me llamo --- y te quería decir que tu pagina es ---"  target="_blank">Whatsapp</a>
+            </section>
 
-        <p class="direccion">
-            Direccion: Av General Paz 7198, Santa Fe, Argentina.
-        </p>
-    </main>
-    
+            <section class="contactos">
+                <img class="icono_grande mail_icono_contacto" src="../img/mail_icono.jpg" alt="icono mail">
+                <a class="links_contacto mail_contacto" href="mailto:matias.kepiro@gmail.com">Matias.Kepiro@gmail.com</a>
+            </section>
+        </div>
+
 </body>
 </html>
