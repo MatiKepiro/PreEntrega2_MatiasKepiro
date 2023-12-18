@@ -1,0 +1,68 @@
+@import "../base/variables";
+@import "../base/extends";
+
+
+
+/* ----- MOBILE ----- */
+
+/* "Inicio" */
+    /* Portadas */
+.portadas{
+    @extend %portadas;
+}
+
+.productos {
+    @extend %productos;
+}
+
+    /* Textos */
+.textos_portadas {
+    @extend %textos_portadas;
+}
+
+/* "Productos" */
+    /* Textos */
+
+.subtitulos_productos {
+    @extend %subtitulos_productos;
+}
+
+.textos_productos {
+    top: $tamanio-x3_5;
+}
+
+/* "Contacto" */
+.subtitulos_contacto {
+    @extend %subtitulos_contacto;
+}
+
+    /* Iconos */
+.icono_grande {
+    height: 2vh;
+}
+
+.whatsapp_icono_contacto {
+    top: 15rem;
+    left: 39.6rem;
+}
+
+.mail_icono_contacto {
+    top: 25rem;
+    left: 34.2rem;
+}
+
+    /* Texto */
+
+.contactos {
+    @extend %contactos;
+}
+
+.links_contacto {
+    color: $color-principales-textos;
+    padding-top: 1.5%;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+}

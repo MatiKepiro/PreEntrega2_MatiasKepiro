@@ -1,0 +1,28 @@
+@import "../base/variables";
+@import "../base/extends";
+
+
+
+/* ----- MOBILE ----- */
+
+.background {
+    @extend %background;
+}
+
+.logo {
+    @extend %logo;
+}
+
+.nombre {
+    @extend %nombre;
+}
+
+.links {
+    @extend %links;
+}
+
+.titulo_general {
+    @extend %titulos;
+}
+
+

@@ -1,0 +1,9 @@
+@import "../base/variables";
+
+@mixin textos($tamanio, $weight, $color, $decoration, $content) {
+    font-size: $tamanio;
+    font-weight: $weight;
+    color: $color;
+    text-decoration: $decoration;
+    justify-content: $content;
+}

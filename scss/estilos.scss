@@ -1,0 +1,156 @@
+@import "./components/_header";
+@import "./components/_main";
+@import "./components/_footer";
+@import "./base/variables";
+@import "./base/extends";
+@import "./base/maps";
+@import "./base/mixins";
+
+
+/* ----- MOBILE ----- */
+/* --- Inicio Estilos Globales --- */
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $color-secundario-textos;
+}
+
+p {
+    position: absolute;
+}
+
+html {
+    @include textos($tamanio-small, 600, $color-principales-textos, none, none);
+}
+/* --- Fin Estilos Globales --- */
+
+
+/* ----- Tablet ----- */
+
+@media only screen and (min-width: 481px) {
+
+    html {
+        font-size: $tamanio-medium;
+    }
+
+    .titulo_general {
+        font-size: map-get($map: $titulos, $key: tamanio_desktop);
+        text-decoration: underline 5px;
+    }
+
+
+/* -- Header -- */
+    .background {
+        height: 15vh;
+    }
+
+    .nombre {
+        font-size: $tamanio-x3_5;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+
+
+/* -- Main -- */
+    /* "Inicio" */
+
+    .portadas{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .productos {    
+        height: 30vh;
+    }
+    
+    .textos_portadas {
+        font-size: $tamanio-x2;
+    }
+    
+        /* Iconos */
+    .icono_grande {
+        height: 3.5vh;
+    }
+
+
+/* -- Footer -- */
+    .icono {
+        height: 3vh;
+    }
+    .link_instagram {
+        color: $color-principales-textos;
+        font-size: $tamanio-x2;
+    }
+
+    .link_whatsapp {
+        color: $color-principales-textos;
+        font-size: $tamanio-x2;
+    }
+
+    .link_mail {
+        color: $color-principales-textos;
+        font-size: $tamanio-x2;
+    }
+
+}
+
+
+/* ----- Desktop ----- */
+@media only screen and (min-width: 769px) {
+
+    html {
+        font-size: $tamanio-large;
+    }
+
+/* -- Header -- */
+    .background {
+        height: 20vh;
+    }
+
+
+/* -- Main -- */
+    .productos {    
+        height: 50vh;
+    }
+
+    .textos_portadas {
+        font-size: $tamanio-x2;
+    }
+
+        /* Iconos */
+    .icono_grande {
+        height: 4.5vh;
+    }
+
+
+/* -- Footer -- */
+    /* Links */
+    .icono {
+        height: 4vh;
+    }
+    .link_instagram {
+        color: $color-principales-textos;
+        font-size: $tamanio-x1_5;
+    }
+    
+    .link_whatsapp {
+        color: $color-principales-textos;
+        font-size: $tamanio-x1_5;
+    }
+    
+    .link_mail {
+        color: $color-principales-textos;
+        font-size: $tamanio-x1_5;
+    }
+}

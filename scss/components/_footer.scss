@@ -1,0 +1,48 @@
+@import "../base/variables";
+@import "../base/extends";
+
+
+
+/* ----- MOBILE ----- */
+
+/* Iconos */
+
+.altura {
+    padding-top: 10%;
+}
+
+.posicion_info {
+    @extend %posicion_info;
+}
+
+.icono {
+    @extend %icono;
+}
+
+
+/* Links */
+    /* "Inicio" */
+
+.link_instagram {
+    color: $color-principales-textos;
+    font-size: $tamanio-x1_5;
+}
+
+.link_whatsapp {
+    color: $color-principales-textos;
+    font-size: $tamanio-x1_5;
+}
+
+.link_mail {
+    color: $color-principales-textos;
+    font-size: $tamanio-x1_5;
+}
+
+/* Info */
+.direccion {
+    @extend %direccion;
+}
+
+.firma {
+    @extend %firma;
+}

@@ -1,0 +1,150 @@
+@import "../base/variables";
+@import "../base/maps";
+
+
+/* -- Header -- */
+%titulos {
+    font-size: map-get($map: $titulos, $key: tamanio_mobile);
+    text-decoration: underline 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+%links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 2%;
+    margin-left: auto;
+    column-gap: 10px;
+    color: $color-secundario-textos;
+    font-size: $tamanio-x2;
+}
+
+%nombre {
+    display: flex;
+    justify-content: flex-start;
+    color: $color-secundario-textos;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: $tamanio-nombre;
+    text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000000, -2px -2px 0 #000; 
+
+}
+
+%logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100px;
+}
+
+%background {
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    border: 2px solid rgb(0, 0, 0);
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+/* -- Main -- */
+
+%portadas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 7%;
+}
+
+%productos {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;
+    width: 20wh;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+%textos_portadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+    font-size: $tamanio-x2;
+    color: $color-principales-textos;
+}
+
+%subtitulos_productos {
+    color: $color-principales-textos;
+    font-size: $tamanio-x2_5;
+    font-style: italic;
+    position: relative;
+    left: 5rem;
+}
+
+%subtitulos_contacto {
+    text-align: center;
+    font-size: $tamanio-x2_5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5%;
+    font-style: italic;
+}
+
+%contactos {
+    font-size: $tamanio-x2_5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* -- Footer -- */
+
+%posicion_info {
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 2%;
+}
+
+%icono {
+    height: 2vh;
+    width: 10wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+}
+
+%direccion {
+    width: 100%;
+    font-size: $tamanio-x1_5;
+    text-decoration: underline;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+%firma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: $tamanio-x1_5;
+    font-style: italic;
+    padding-top: 20%;
+}
