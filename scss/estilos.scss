@@ -53,6 +53,10 @@ html {
         height: 15vh;
     }
 
+    .logo {
+        width: 100px;
+    }
+
     .nombre {
         font-size: $tamanio-x3_5;
     }
@@ -115,7 +119,8 @@ html {
 
 /* -- Header -- */
     .background {
-        height: 20vh;
+        height: 25vh;
+        background-position-y: 50%;
     }
 
 

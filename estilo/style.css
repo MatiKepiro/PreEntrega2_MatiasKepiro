@@ -38,11 +38,11 @@
   display: flex;
   justify-content: flex-start;
   height: 100%;
-  width: 100px;
+  width: 60px;
 }
 
 .background {
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position-y: 40%;
   background-size: cover;
@@ -66,6 +66,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -187,11 +188,11 @@
   display: flex;
   justify-content: flex-start;
   height: 100%;
-  width: 100px;
+  width: 60px;
 }
 
 .background {
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position-y: 40%;
   background-size: cover;
@@ -215,6 +216,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -372,11 +374,11 @@
   display: flex;
   justify-content: flex-start;
   height: 100%;
-  width: 100px;
+  width: 60px;
 }
 
 .background {
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position-y: 40%;
   background-size: cover;
@@ -400,6 +402,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -544,11 +547,11 @@
   display: flex;
   justify-content: flex-start;
   height: 100%;
-  width: 100px;
+  width: 60px;
 }
 
 .background {
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position-y: 40%;
   background-size: cover;
@@ -572,6 +575,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -699,6 +703,9 @@ html {
   .background {
     height: 15vh;
   }
+  .logo {
+    width: 100px;
+  }
   .nombre {
     font-size: 3.5rem;
   }
@@ -745,7 +752,8 @@ html {
   }
   /* -- Header -- */
   .background {
-    height: 20vh;
+    height: 25vh;
+    background-position-y: 50%;
   }
   /* -- Main -- */
   .productos {
