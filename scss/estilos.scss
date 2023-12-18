@@ -53,6 +53,10 @@ html {
         height: 15vh;
     }
 
+    .links {
+        font-size: $tamanio-x2;
+    }
+
     .logo {
         width: 100px;
     }
@@ -121,6 +125,10 @@ html {
     .background {
         height: 25vh;
         background-position-y: 50%; 
+    }
+
+    .links {
+        font-size: $tamanio-x2_5;
     }
 
 
