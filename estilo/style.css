@@ -30,7 +30,7 @@
   justify-content: flex-start;
   color: rgb(255, 255, 255);
   font-family: "Sedgwick Ave Display", cursive;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000000, -2px -2px 0 #000;
 }
 
@@ -47,7 +47,7 @@
   background-position-y: 40%;
   background-size: cover;
   border: 2px solid rgb(0, 0, 0);
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -180,7 +180,7 @@
   justify-content: flex-start;
   color: rgb(255, 255, 255);
   font-family: "Sedgwick Ave Display", cursive;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000000, -2px -2px 0 #000;
 }
 
@@ -197,7 +197,7 @@
   background-position-y: 40%;
   background-size: cover;
   border: 2px solid rgb(0, 0, 0);
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -366,7 +366,7 @@
   justify-content: flex-start;
   color: rgb(255, 255, 255);
   font-family: "Sedgwick Ave Display", cursive;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000000, -2px -2px 0 #000;
 }
 
@@ -383,7 +383,7 @@
   background-position-y: 40%;
   background-size: cover;
   border: 2px solid rgb(0, 0, 0);
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -539,7 +539,7 @@
   justify-content: flex-start;
   color: rgb(255, 255, 255);
   font-family: "Sedgwick Ave Display", cursive;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000000, -2px -2px 0 #000;
 }
 
@@ -556,7 +556,7 @@
   background-position-y: 40%;
   background-size: cover;
   border: 2px solid rgb(0, 0, 0);
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   z-index: 1;
   display: flex;
