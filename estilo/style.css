@@ -66,7 +66,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-top: 5%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -216,7 +216,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-top: 5%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -402,7 +402,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-top: 5%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
@@ -575,7 +575,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-top: 5%;
   height: 15vh;
   width: 20wh;
   border: 2px solid rgb(0, 0, 0);
